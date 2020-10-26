@@ -46,6 +46,11 @@ public class MockServletContext implements ServletContext {
     }
 
 
+    @Override
+    public String getContextPath() {
+        return "";
+    }
+
     /**
      * Returns a ServletContext object that corresponds to a specified URL on
      * the server.
